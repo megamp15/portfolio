@@ -33,18 +33,11 @@ export default function Home() {
           <div className="main-components relative pt-20 flex flex-col items-center justify-center text-[#24f29c] z-1">
             <img
               className="w-[10%] h-[10%]"
-              src="/robot.png"
+              src="/portfolio/robot.png"
               alt="Cyberpunk Robot"
             />
             <div className="text-9xl pt-10">Mahir</div>
             <div className="text-6xl pt-10">
-              {/* <Typewriter
-                words={["","Software & AI Engineer"]}
-                cursor
-                cursorStyle="_"
-                typeSpeed={200}
-                delaySpeed={1000}
-              /> */}
               <Typewriter
                 onInit={(typewriter) => {
                   typewriter
