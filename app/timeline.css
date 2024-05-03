@@ -1,0 +1,70 @@
+/*
+  Timeline from https://freefrontend.com/css-timelines/#vertical-timelines 
+  
+  Edited Code from https://codepen.io/alanhouser/pen/aErrQJ by Alan Houser
+*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+/* Timeline */
+.tborder {
+  border-left: 3px solid #24f29c;
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.roboto {
+  font-family: "Roboto Mono", sans-serif;
+}
+
+.timeline-bg {
+  background: #95959526;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: "Prompt", sans-serif;
+  /* margin: 50px 3rem; */
+  /* letter-spacing: 0.3px;
+  line-height: 1.5em;
+  font-size: 1.03em;
+  padding: 25px;
+  list-style: none;
+  text-align: left;
+  font-weight: 100; */
+  /* max-width: 100%; */
+}
+
+.event {
+  /* border-bottom: 1px dashed rgba(255, 255, 255, 0.1); */
+  border-bottom: 2px dashed rgba(255, 255, 255, 0.3);
+  padding-bottom: 25px;
+  margin-bottom: 50px;
+  position: relative;
+}
+.event-none {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border: none;
+}
+.event:before,
+.event:after {
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+.event:before {
+  color: rgba(255, 255, 255, 0.62);
+  content: attr(data-date);
+  text-align: right;
+  font-weight: 100;
+  font-size: 1.3em;
+  min-width: 120px;
+  font-family: "Roboto", sans-serif;
+}
+.event:after {
+  box-shadow: 0 0 0 5px #24f29c;
+  left: -47.5px;
+  background: #000000;
+  border-radius: 50%;
+  height: 11px;
+  width: 11px;
+  content: "";
+  top: 4px;
+}

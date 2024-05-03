@@ -1,13 +1,12 @@
-"use client"
-import { useState, useEffect } from "react";
+"use client";
+import { useEffect, useState } from "react";
 
 export function NavBar() {
-
   return (
     <>
-      <div className="navbar">
+      <div className="navbar text-[#FCA311]">
         <div className="navbar-start">
-          <div className="dropdown">
+          <div className="dropdown dropdown-hover">
             <div
               tabIndex={0}
               role="button"
@@ -30,26 +29,22 @@ export function NavBar() {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              className="menu dropdown-content z-[1] p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <a href="/">HOME</a>
+                <a href="/portfolio">HOME</a>
               </li>
-              <li>
+              {/* <li>
                 <a href="/about">ABOUT</a>
-              </li>
+              </li> */}
               <li>
-                <a href="/experience">EXPERIENCE</a>
+                <a href="/portfolio/experience">EXPERIENCE</a>
               </li>
-              <li>
+              {/* <li>
                 <a href="/contact">CONTACT</a>
-              </li>
+              </li> */}
             </ul>
           </div>
-        </div>
-        <div className="navbar-center">
-        </div>
-        <div className="navbar-end">
         </div>
       </div>
     </>
