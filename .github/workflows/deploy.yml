@@ -69,6 +69,9 @@ jobs:
       - name: Create nojekyll file in out directory
         run: touch ./out/.nojekyll
 
+      - name: Create CNAME file
+        run: echo "mahirp.info" > ./out/CNAME
+
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.6.0
         with:
