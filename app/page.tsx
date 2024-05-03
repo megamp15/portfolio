@@ -32,7 +32,7 @@ export default function Home() {
         > <div className="main-components relative pt-10 flex flex-col items-center justify-center text-[#24f29c] z-1">
               <img
               className="w-[10%] h-[10%]"
-              src="/robot.png"
+              src="/portfolio/robot.png"
               alt="Cyberpunk Robot"
             />
         </div>
