@@ -32,13 +32,13 @@ export function NavBar() {
               className="menu dropdown-content z-[1] p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <a href="/portfolio">HOME</a>
+                <a href="/">HOME</a>
               </li>
               {/* <li>
                 <a href="/about">ABOUT</a>
               </li> */}
               <li>
-                <a href="/portfolio/experience">EXPERIENCE</a>
+                <a href="/experience">EXPERIENCE</a>
               </li>
               {/* <li>
                 <a href="/contact">CONTACT</a>
