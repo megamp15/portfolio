@@ -29,9 +29,9 @@ export default function Home() {
               },
             },
           }}
-        > <div className="main-components relative pt-10 flex flex-col items-center justify-center text-[#24f29c] z-1">
+        > <div className="relative pt-10 flex flex-col items-center justify-center text-[#24f29c] z-1">
               <img
-              className="w-[10%] h-[10%]"
+              className="xsm:w-[30%] sm:w-[25%] md:w-[20%] lg:w-[15%] 2xl:w-[175px]"
               src="/robot.png"
               alt="Cyberpunk Robot"
             />
@@ -56,9 +56,9 @@ export default function Home() {
             },
           }}
         >
-          <div className="main-components relative flex flex-col items-center justify-center text-[#24f29c] z-1">
-            <div className="text-9xl pt-6">Mahir</div>
-            <div className="text-6xl pt-10">
+          <div className="heading relative flex flex-col items-center justify-center text-[#24f29c] z-1">
+            <div className="text-9xl xsm:text-5xl sm:text-6xl md:text-7xl pt-6">Mahir</div>
+            <div className="text-6xl xsm:text-2xl sm:text-3xl md:text-4xl pt-10">
               <Typewriter
                 onInit={(typewriter) => {
                   typewriter

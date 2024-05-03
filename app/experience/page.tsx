@@ -7,9 +7,11 @@ export default function experience() {
   return (
     <>
       <div className="min-h-fit flex flex-col items-center justify-center text-[#24f29c]">
-        <h1 className="text-8xl">EXPERIENCE</h1>
+        <h1 className="text-8xl xsm:text-4xl sm:text-6xl md:text-7xl lg:text-8xl 2xl:text-8xl">
+          EXPERIENCE
+        </h1>
       </div>
-      <div className="min-w-full flex flex-col roboto">
+      <div className="max-w-screen-lg flex flex-col ml-auto mr-auto roboto">
         <motion.div
           initial="hidden"
           whileInView="visible"
@@ -22,7 +24,7 @@ export default function experience() {
             },
           }}
         >
-          <div className="tborder m-20 p-10 timeline-bg">
+          <div className="tborder m-20 p-10 timeline-bg xsm:m-7">
             <motion.div
               initial="hidden"
               whileInView="visible"
@@ -36,12 +38,14 @@ export default function experience() {
               }}
             >
               <div className="event" data-date="Apr 2024 - Present">
-                <div className="p-10">
-                  <h1 className="mt-3 text-4xl text-[#FCA311]">
+                <div className="md:p-10 xsm:pt-10">
+                  <h1 className="mt-3 text-4xl xsm:text-2xl sm:text-3xl text-[#FCA311]">
                     AI Sports Card Grading & Authentication
                   </h1>
-                  <h2 className="mt-2 text-3xl roboto">Project Intern</h2>
-                  <p className="mt-5 text-2xl roboto">
+                  <h2 className="mt-2 text-3xl xsm:text-xl sm:text-2xl roboto">
+                    Project Intern
+                  </h2>
+                  <p className="mt-5 text-2xl xsm:text-base sm:text-lg roboto">
                     Utilizing computer vision and machine learning for automated
                     grading and authentication, focusing on training an
                     open-source object detection model, YOLO, to detect various
@@ -101,14 +105,14 @@ export default function experience() {
                 className="event event-none"
                 data-date="June 2019 - Sep 2020"
               >
-                <div className="px-10 pt-10 ">
-                  <h1 className="mt-3 text-4xl text-[#FCA311]">
+                <div className="md:px-10 xsm:pt-10">
+                  <h1 className="mt-3 text-4xl xsm:text-2xl sm:text-3x text-[#FCA311]">
                     Zbottomline LLC
                   </h1>
-                  <h2 className="mt-2 text-3xl roboto">
+                  <h2 className="mt-2 text-3xl xsm:text-xl sm:text-2xl roboto">
                     Contract Software Engineer
                   </h2>
-                  <p className="mt-5 text-2xl roboto">
+                  <p className="mt-5 text-2xl xsm:text-base sm:text-lg roboto">
                     Designed and developed the Retail Lottery Downloader,
                     proprietary-based software by Zbottomline to reduce lottery
                     data processing from the Texas Lottery Website. Created

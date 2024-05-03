@@ -14,7 +14,7 @@ export function NavBar() {
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5"
+                className="sm:h-8 sm:w-8 xsm:h-7 xsm:w-7"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -29,7 +29,7 @@ export function NavBar() {
             </div>
             <ul
               tabIndex={0}
-              className="menu dropdown-content z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              className="menu dropdown-content z-[1] p-2 shadow bg-base-100 rounded-box w-35"
             >
               <li>
                 <a href="/">HOME</a>
